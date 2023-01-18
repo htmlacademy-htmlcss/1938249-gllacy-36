@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Елена Елькина](https://up.htmlacademy.ru/htmlcss/36/user/1938249).
-* Наставник: `Константин Антонов` (https://htmlacademy.ru/profile/id175216).
+* Наставник: [Константин Антонов](https://htmlacademy.ru/profile/id175216).
 
 ---
 
