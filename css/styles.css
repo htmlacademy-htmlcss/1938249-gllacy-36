@@ -23,7 +23,101 @@
   }
 
 body {
-    font-family: "Inter", serif;
-    font-size: 18px;
-    line-height: 24px;
+  font-family: "Inter", serif;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: #FEAFC3;
+  color: #2D3440;
   }
+.button {
+  background: #FCFCFC;
+  border: 4px solid rgba(252, 252, 252, 0.4);
+  box-shadow: 0px 4px 12px rgba(45, 52, 64, 0.1);
+  border-radius: 26px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  border-color: #FEAFC3;
+  text-decoration: none;
+  color: #2D3440;
+  }
+.navigation-link {
+  font-family: "Inter" serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #2D3440;
+}
+.gifts-banner-raspberries {
+  background: #FF7799;
+  border-radius: 16px;
+  background-image: url("../images/малинка_даром.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.gifts-banner-marshmallow {
+  background: #FF7799;
+  border-radius: 16px;
+  background-image: url("../images/маршмеллоу_даром.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  }
+
+.benefits{
+    background: #FFFFFF;
+    border-radius: 16px;
+    background-image: url("../images/Вафля.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .news-blog {
+    background: #FFFFFF;
+    border-radius: 16px;
+    background-image: url("../images/Новости.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .newsletter {
+    background: #FFFFFF;
+    border-radius: 16px;
+    background-image: url("../images/Подписка.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+.news {
+  display: flex;
+  align-content: space-between;
+}
+.delivery {
+  background: #FFFFFF;
+  border-radius: 16px;
+  background-image: url("../images/Доставка.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.feedback {
+  background: #FFFFFF;
+  border-radius: 16px;
+  background-image: url("../images/Обратная_связь.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.popular-list {
+  display: flex;
+  align-content: center;
+  list-style-type:  none;
+}
+.product-card-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #2D3440;
+}
