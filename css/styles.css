@@ -79,63 +79,65 @@ body {
   }
 .gifts-banner {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  justify-content: space-between;
   padding: 0;
-  gap: 30px;
+  flex-grow: 1;
+  width: 1170px;
+
 }
 .gifts-title {
-width: 434px;
-font-family: 'Inter' serif;
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 46px;
-text-align: center;
-color: #2D3440;
-padding: 0;
-margin: 0 auto;
+  width: 434px;
+  font-family: 'Inter' serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  color: #2D3440;
+  padding: 0;
+  margin: 0 auto;
 }
 .gifts-banner-raspberries {
   background: #FF7799;
   border-radius: 16px;
   background-image: url("../images/малинка_даром.png");
-  background-size: 100% auto;
   background-repeat: no-repeat;
   width: 570px;
+  min-height: 268px;
+  background-position: right;
 }
 .gifts-banner-marshmallow {
   background: #FF7799;
   border-radius: 16px;
   background-image: url("../images/маршмеллоу_даром.png");
-  background-size: 100% auto;
   background-repeat: no-repeat;
   width: 570px;
+  min-height: 268px;
+  background-position: right;
   }
 
 .benefits{
   background: #FFFFFF;
   border-radius: 16px;
   background-image: url("../images/Вафля.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
   width: 1170px;
-  height: 480px;
+  min-height: 480px;
   }
   .news-blog {
   background: #FFFFFF;
   border-radius: 16px;
   background-image: url("../images/Новости.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
   width: 570px;
-  height: 224px;
+  min-height: 224px;
+  background-position: right;
+
   }
   .newsletter {
   background: #FFFFFF;
   border-radius: 16px;
   background-image: url("../images/Подписка.png");
-  background-size: 100% auto;
   background-repeat: no-repeat;
   width: 570px;
   height: 224px;
@@ -146,7 +148,7 @@ margin: 0 auto;
   align-items: flex-start;
   padding: 0;
   gap: 30px;
-width: 1170px;
+  width: 1170px;
 }
 .delivery {
   display: flex;
@@ -155,17 +157,15 @@ width: 1170px;
   background: #FFFFFF;
   border-radius: 16px;
   background-image: url("../images/Доставка.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
   width: 1170px;
-  height: 534px;
+  min-height: 534px;
 }
 .delivery-form {
-background: #FCFCFC;
-box-shadow: 0 15px 40px rgba(45, 52, 64, 0.12);
-border-radius: 8px;
-width: 500px;
-margin-left: auto;
+  background: #FCFCFC;
+  box-shadow: 0 15px 40px rgba(45, 52, 64, 0.12);
+  border-radius: 8px;
+  width: 500px;
 }
 .delivery-title {
   font-family: 'Inter';
@@ -174,7 +174,7 @@ margin-left: auto;
   font-size: 32px;
   line-height: 46px;
   position: absolute;
-width: 356px;
+  width: 356px;
 }
 .delivery-text {
   font-family: 'Inter';
@@ -183,8 +183,8 @@ width: 356px;
   font-size: 16px;
   line-height: 22px;
   position: absolute;
-width: 371px;
-height: 88px;
+  width: 371px;
+  height: 88px;
 
 }
 
@@ -192,8 +192,9 @@ height: 88px;
   background: #FFFFFF;
   border-radius: 16px;
   background-image: url("../images/Обратная_связь.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
+  width: 1170px;
+  min-height: 492px;
 }
 .popular-list {
   display: flex;
@@ -224,11 +225,13 @@ height: 88px;
   margin: 0 auto;
   position: relative;
   width: 1366px;
+  flex-grow: 1;
+
 }
 .page-footer {
   display: flex;
-  max-width: 100%;
   width: 1366px;
+  margin: 0 auto;
 }
 .navigation {
   display: flex;
@@ -253,4 +256,43 @@ height: 88px;
   margin: 0 auto;
   padding: 0;
   width: 1170px;
+}
+.slider-pagination {
+  display: flex;
+  list-style-type: none;
+  width: 52px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.slider-pagination-button {
+  background: #FCFCFC;
+  width: 12px;
+  height: 12px;
+}
+.main-social-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  gap: 16px;
+  list-style-type: none;
+}
+.options {
+  width: 1170px;
+  min-height: 554px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
