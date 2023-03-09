@@ -284,6 +284,8 @@ body {
 .options {
   width: 1170px;
   min-height: 554px;
+
+
 }
 
 .visually-hidden {
@@ -295,4 +297,15 @@ body {
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.slider-image {
+  background-image: url("../images/svg/Подложка.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.slider-image-preview {
+  background-image: url("../images/svg/Мини_подложка.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
